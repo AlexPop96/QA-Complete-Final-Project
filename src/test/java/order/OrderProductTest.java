@@ -9,7 +9,7 @@ public class OrderProductTest extends BaseTests {
 
     @Test
     //Complete an order for one product (5)
-    public void completeOrderOfAProduct() throws InterruptedException {
+    public void completeOrderOfAProduct() {
         homePage = loginPage.loginAsStandardUser();
         productPage = homePage.openFleeceJacket();
         assertTrue(productPage.isBackToProductsEnable(), "Button is not enable!");

@@ -23,7 +23,6 @@ public class BaseTests {
 
     @BeforeClass
     public void setUp(){
-        System.setProperty("webdriver.chrome.driver", "resources/chromedriver.exe");
 
         ChromeOptions chromeOption = new ChromeOptions();
         chromeOption.addArguments("--remote-allow-origins=*");
